@@ -2,11 +2,7 @@
 
 **Diffusion from scratch.** A small DDPM U-Net on MNIST and Fashion-MNIST: how does a model turn pure noise into an image?
 
-Part of the **Latent Space Project**: 18 small PyTorch repos that test one idea, that neural networks encode concepts and strategy in their latent space, and that we can read and edit those representations. Everything trains on a single consumer GPU or a laptop.
-
-| Roadmap | Phase | Depends on | Status |
-| --- | --- | --- | --- |
-| 15 of 18 | 5. Representation and generation | Nothing | Not started (scaffolded) |
+**Status:** not started.
 
 ## Question
 
@@ -27,7 +23,7 @@ How does a model turn pure noise into an image, and what does its noise space lo
 
 - Samples are clearly recognizable, and the README shows the denoising trajectory figure.
 
-Plus the definition of done every Latent Space Project repo shares:
+Plus the general checklist:
 
 Apply this checklist with the project-specific requirements and exceptions in
 [CLAUDE.md](CLAUDE.md#project-specific-scope).
