@@ -123,6 +123,12 @@ remove an item that is done.
   `prepare()` that downloads MNIST and Fashion-MNIST once, and hold each dataset on the GPU; an
   A10 or A100.
 
+## Local Runs
+
+- Start every local training run, sweep or long analysis in tmux with `just bg <recipe> [args]`,
+  for example `just bg train --run-name wd1.0-seed0`. `tmux ls` lists the sessions and
+  `tmux attach -t <session>` watches one; each session's output is also in `runs/logs/`.
+
 ## Project Overview
 
 from-static-unet is project 15 of 18 in the Latent Space Project: small ML repos that test whether
